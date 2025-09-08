@@ -1,0 +1,9 @@
+<main>
+  @if(resultText) {
+    <h2>{{resultText}}</h2>
+  }
+  <app-interaction (onRollOut)="onRoll($event)"></app-interaction>
+  <div>
+    <p>{{history() | historyFormatter}}</p>
+  </div>
+</main>

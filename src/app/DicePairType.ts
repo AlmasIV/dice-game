@@ -1,0 +1,1 @@
+export type DicePair = readonly [number, number];
