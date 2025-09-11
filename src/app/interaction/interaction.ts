@@ -1,5 +1,5 @@
 import { Component, input, InputSignal, output, OutputEmitterRef } from '@angular/core';
-import { DicePair } from '../DicePairType';
+import { DicePair } from '../dice-pair.type';
 
 @Component({
   selector: 'app-interaction',

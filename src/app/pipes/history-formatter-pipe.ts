@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { DicePair } from '../DicePairType';
+import { DicePair } from '../dice-pair.type';
 
 @Pipe({
   name: 'historyFormatter',

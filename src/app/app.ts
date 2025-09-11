@@ -1,6 +1,6 @@
 import { Component, signal, WritableSignal } from '@angular/core';
 import { Interaction } from './interaction/interaction';
-import { DicePair } from './DicePairType';
+import { DicePair } from './dice-pair.type';
 import { HistoryFormatterPipe } from './pipes/history-formatter-pipe';
 
 @Component({
